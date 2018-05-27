@@ -11,7 +11,7 @@ pipeline {
   }
   post {
     always {
-     archiveArtifacts 'dist/*.jar'
+archiveArtifacts allowEmptyArchive: true, artifacts: 'dist/*.jar', fingerprint: true, onlyIfSuccessful: true
     }
   }
 }
