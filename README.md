@@ -7,6 +7,6 @@ Java Project for Jenkins Course
 * docker
 
 # Plugins
-* pipeline
+* Pipeline
+* Copy Artifact
 * more...
-
